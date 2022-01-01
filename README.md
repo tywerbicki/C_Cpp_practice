@@ -11,3 +11,22 @@ Various computational statistics operations.
 ### rvGeneration.c
 Generation of uniform, exponential, and normal random variables. <br>
 Because this program makes use of the `math.h` header file, the `-lm` compiler flag must be included when compiling.
+
+## Linking Practice
+Practice linking function definitions in source code to program modules.
+
+### mm256Extensions
+
+#### Purpose
+
+Additional, useful simd functions.
+
+#### Implementation
+
+1)  Compile `mm256_extentions_source.c` and `seeVectors.c` to object files. <br>
+    Example: `gcc -Wall -c mm256_extentions_source.c -mavx`
+
+2)  Compile the program by linking the object files. <br>
+    Example: `gcc -o test.exe mm256_extentions_source.o seeVectors.o`
+    
+3)  Run the program.
