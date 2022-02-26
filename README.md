@@ -1,5 +1,11 @@
-# C Programming Language Practice
-Practicing various paradigms of the C programming language.
+# C/C++ Programming Language Practice
+Practicing various paradigms of the C/C++ programming languages.
+
+---
+
+## Data_Structures
+
+Implementation of a deque using a doubly-linked list and a dictionary using an AVL tree.
 
 ---
 
